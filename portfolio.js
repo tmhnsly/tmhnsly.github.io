@@ -76,12 +76,10 @@ function navBarDarkMode() {
     let homeButton = document.getElementById('homeButton');
     let contactButton = document.getElementById('contactButton');
     let darkModeButton = document.getElementById('darkModeToggle');
-
+    
     homeButton.style.background = '#B3B6B9';
 
     contactButton.style.background = '#5E636A';
-
-    darkModeButton.style.color = '#FDAE47';
 }
 
 function portfolioItemDarkMode() {

@@ -81,7 +81,7 @@ body {
     padding: 10px;
     color: #ffffff;
     font-size: 1rem;
-    transition: background 0.5s, color 0.2s;
+    transition: background 2s, color 0.8s;
 }
 
 .navButton:hover {
@@ -91,7 +91,6 @@ body {
 
 .homeButton {
     background: #5E636A;
-    transition: background 0.5s;
 }
 
 .portfolioButton {
@@ -100,7 +99,6 @@ body {
 
 .contactButton {
     background: #B3B6B9;
-    transition: background 0.5s;
 }
 
 #darkModeToggle {
@@ -108,13 +106,14 @@ body {
 }
 
 #darkModeButton {
+    height: 38.4px;
     padding: 10px;
     color: #ffffff;
     font-size: 1rem;
     background: #414850;
     border: none;
     display: block;
-    transition: background 0.5s, color 0.5s;
+    transition: background 2s, color 0.8s;
 }
 
 #darkModeButton:hover {
@@ -123,6 +122,10 @@ body {
 }
 
 #darkModeButton input {
+}
+
+#darkModeToggleIcon {
+    height: 17.5px;
 }
 
 /* PAGE CONTENT */
@@ -383,7 +386,7 @@ text-align: center;
     .navBar {
         max-height: 0px;
         overflow: hidden;
-        transition: max-height 0.75s;
+        transition: max-height 0.8s;
         display: block;
         width: 100%;
     }
@@ -416,7 +419,7 @@ text-align: center;
         border: none;
         fill: #FFFFFF;
         z-index: 20;
-        transition: border-radius 0.5s;
+        transition: border-radius 2s, background 1s;
     }
 
     #navBarHamburger.open {
