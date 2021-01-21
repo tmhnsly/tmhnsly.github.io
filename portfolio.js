@@ -3,8 +3,7 @@
 function hamburgerOpen() {
     let navMenu = document.getElementById('navBar');
 
-    navMenu.style.display = 'block';
-    navMenu.style.height = '318px';
+    navMenu.classList.add('open');
 }
 
 // DARK MODE STYLE

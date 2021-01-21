@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -379,6 +383,21 @@ text-align: center;
 @media only screen and (max-width: 840px) {
     .navBar {
         display: none;
+    }
+
+    #navLogoBackground {
+        align-items: center;
+    }
+
+    .navBar.open {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .navBar a {
+        display: block;
+        width: 100%;
     }
 
     #navBarHamburger {
