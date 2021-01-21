@@ -124,7 +124,7 @@ body {
 #darkModeButton input {
 }
 
-#darkModeToggleIcon {
+.darkModeToggleIcon {
     height: 17.5px;
 }
 
