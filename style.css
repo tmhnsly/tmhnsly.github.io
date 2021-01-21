@@ -383,7 +383,7 @@ text-align: center;
     .navBar {
         max-height: 0px;
         overflow: hidden;
-        transition: max-height 0.5s;
+        transition: max-height 0.75s;
         display: block;
         width: 100%;
     }
@@ -420,7 +420,7 @@ text-align: center;
     }
 
     #navBarHamburger.open {
-        background: rgba(231, 76, 60, 0.8);
+        background: rgba(231, 76, 60, 0.9);
         border-radius: 50px;
     }
 
