@@ -1,9 +1,13 @@
 // NAV BAR
 
-function hamburgerOpen() {
+function hamburgerToggle() {
     let navMenu = document.getElementById('navBar');
+    let hamburger = document.getElementById('navBarHamburger');
 
-    navMenu.classList.add('open');
+    navMenu.classList.toggle('open');
+
+    hamburger.classList.toggle('open');
+
 }
 
 // DARK MODE STYLE
@@ -12,9 +16,9 @@ function darkModeToggle() {
     let darkModeToggle = document.getElementById("darkModeToggle");
 
     darkModeToggle.click();
-    lightswitch();
+    lightSwitch();
 
-    function lightswitch() {
+    function lightSwitch() {
     
         if(darkModeToggle.checked != true){
             lightMode();
@@ -158,5 +162,5 @@ aptitudeLogo.style.filter = 'invert(0)';
 function linksLightMode() {
 let linkTray = document.getElementById('linkTray');
 
-linkTray.style.backgroundColor = 'rgba(0, 0, 0, 0.)';
+linkTray.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
 }
