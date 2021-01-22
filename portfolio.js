@@ -7,6 +7,8 @@ function hamburgerToggle() {
     navMenu.classList.toggle('open');
 
     hamburger.classList.toggle('open');
+    hamburger.classList.toggle('is-active');
+
 
 }
 
@@ -76,7 +78,7 @@ function navBarDarkMode() {
     let homeButton = document.getElementById('homeButton');
     let contactButton = document.getElementById('contactButton');
     let darkModeButton = document.getElementById('darkModeToggle');
-    
+
     homeButton.style.background = '#B3B6B9';
 
     contactButton.style.background = '#5E636A';
