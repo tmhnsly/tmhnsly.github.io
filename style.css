@@ -388,7 +388,7 @@ text-align: center;
         transition: max-height 0.8s;
         display: block;
         width: 100%;
-        box-shadow: 0px 4px 24px rgba(0, 0, 0, 1);
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
     }
 
     #navLogoBackground {
@@ -420,7 +420,7 @@ text-align: center;
         border: none;
         fill: #FFFFFF;
         z-index: 20;
-        transition: border-radius 2s, background 1s;
+        transition: border-radius 0.8s, background 1.6s;
     }
 
     #navBarHamburger.open {
