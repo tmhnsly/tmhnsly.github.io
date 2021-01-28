@@ -8,8 +8,6 @@ function hamburgerToggle() {
 
     hamburger.classList.toggle('open');
     hamburger.classList.toggle('is-active');
-
-
 }
 
 // DARK MODE STYLE
@@ -32,19 +30,19 @@ function darkModeToggle() {
 }
 
 function darkMode() {
-            logoDarkMode();
-            navBarDarkMode();
-            textColorDarkMode();
-            pageBackgroundDarkMode();
-            portfolioItemDarkMode();
-            linksDarkMode();
+    logoDarkMode();
+    navBarDarkMode();
+    textColorDarkMode();
+    pageBackgroundDarkMode();
+    portfolioItemDarkMode();
+    linksDarkMode();
 }
 
 function textColorDarkMode() {
- let pageText = document.getElementById('pageContent');
+    let pageText = document.getElementById('pageContent');
 
- pageText.style.color = '#ffffff';
- pageText.style.transition = 'color 2s';
+    pageText.style.color = '#ffffff';
+    pageText.style.transition = 'color 2s';
 }
 
 function pageBackgroundDarkMode() {
@@ -108,59 +106,58 @@ function lightMode() {
 }
 
 function textColorLightMode() {
-let pageText = document.getElementById('pageContent');
+    let pageText = document.getElementById('pageContent');
 
-pageText.style.color = '#000000';
-pageText.style.transition = 'color 2s';
+    pageText.style.color = '#000000';
+    pageText.style.transition = 'color 2s';
 }
 
 function pageBackgroundLightMode() {
-let pageBackground = document.getElementById('pageBody');
+    let pageBackground = document.getElementById('pageBody');
 
-pageBackground.style.background = "#FFFFFF";
+    pageBackground.style.background = "#FFFFFF";
 }
 
 function logoLightMode() {
-let triangle = document.getElementById('logoTriangle');
-let circleLower = document.getElementById('logoCircleLower');
-let circleUpper = document.getElementById('logoCircleUpper');
-let logobackground = document.getElementById('navLogoBackground');
-let text = document.getElementById('logoText');
+    let triangle = document.getElementById('logoTriangle');
+    let circleLower = document.getElementById('logoCircleLower');
+    let circleUpper = document.getElementById('logoCircleUpper');
+    let logobackground = document.getElementById('navLogoBackground');
+    let text = document.getElementById('logoText');
 
-circleLower.style.fill = '#ffffff';
-circleLower.style.transform = 'translate(0px)';
+    circleLower.style.fill = '#ffffff';
+    circleLower.style.transform = 'translate(0px)';
 
-triangle.style.fill = 'rgba(253, 174, 71, 0.8)';
+    triangle.style.fill = 'rgba(253, 174, 71, 0.8)';
 
-circleUpper.style.stroke = '#414850';
-circleUpper.style.transform = 'translate(0px)';
+    circleUpper.style.stroke = '#414850';
+    circleUpper.style.transform = 'translate(0px)';
 
-logobackground.style.background = '#414850';
+    logobackground.style.background = '#414850';
 
-text.style.color = '#FFFFFF';
-
+    text.style.color = '#FFFFFF';
 }
 
 function navBarLightMode() {
-let homeButton = document.getElementById('homeButton');
-let contactButton = document.getElementById('contactButton');
-let darkModeButton = document.getElementById('darkModeToggle');
+    let homeButton = document.getElementById('homeButton');
+    let contactButton = document.getElementById('contactButton');
+    let darkModeButton = document.getElementById('darkModeToggle');
 
-homeButton.style.background = '#5E636A';
+    homeButton.style.background = '#5E636A';
 
-contactButton.style.background = '#B3B6B9';
+    contactButton.style.background = '#B3B6B9';
 
-darkModeButton.innerHTML = '☀';
+    darkModeButton.innerHTML = '☀';
 }
 
 function portfolioItemLightMode() {
-let aptitudeLogo = document.getElementById('aptitudeTestLogo');
+    let aptitudeLogo = document.getElementById('aptitudeTestLogo');
 
-aptitudeLogo.style.filter = 'invert(0)';
+    aptitudeLogo.style.filter = 'invert(0)';
 }
 
 function linksLightMode() {
-let linkTray = document.getElementById('linkTray');
+    let linkTray = document.getElementById('linkTray');
 
-linkTray.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
+    linkTray.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
 }
