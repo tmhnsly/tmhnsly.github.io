@@ -243,7 +243,7 @@ a {
 .doomsdayIcon {
     width: 50%;
     height: auto;
-    border-radius: 0 15px 0 15px;
+    border-radius: 0 15px 15px 0;
     background: repeating-linear-gradient(
         45deg,
         #F7C700,
