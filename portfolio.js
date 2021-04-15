@@ -73,11 +73,11 @@ function logoDarkMode() {
 }
 
 function navBarDarkMode() {
-    let homeButton = document.getElementById('homeButton');
+    // let homeButton = document.getElementById('homeButton');
     let contactButton = document.getElementById('contactButton');
     let darkModeButton = document.getElementById('darkModeToggle');
 
-    homeButton.style.background = '#B3B6B9';
+    // homeButton.style.background = '#B3B6B9';
 
     contactButton.style.background = '#5E636A';
 }
@@ -139,11 +139,11 @@ function logoLightMode() {
 }
 
 function navBarLightMode() {
-    let homeButton = document.getElementById('homeButton');
+    // let homeButton = document.getElementById('homeButton');
     let contactButton = document.getElementById('contactButton');
     let darkModeButton = document.getElementById('darkModeToggle');
 
-    homeButton.style.background = '#5E636A';
+    // homeButton.style.background = '#5E636A';
 
     contactButton.style.background = '#B3B6B9';
 
